@@ -1,0 +1,18 @@
+[package]
+name = "pwsf"
+version = "0.1.0"
+authors = ["Stanislav Fomichev <kernel@fomichev.me>"]
+
+[dependencies]
+byteorder = "1"
+lazy_static = "0.2"
+getopts = "0.2"
+rpassword = "1.0.0"
+regex = "0.2"
+clipboard = "0.4.2"
+rand = "0.3"
+
+[dependencies.gcrypt]
+version = "0.5"
+default-features = false
+features = ["nightly"]
